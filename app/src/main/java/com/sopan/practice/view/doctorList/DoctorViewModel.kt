@@ -12,7 +12,6 @@ class DoctorViewModel(application: Application) : AndroidViewModel(application) 
     var theDataBase: TheDataBase = TheDataBase.getInstance(application)
     var doctorDao: DoctorDao = theDataBase.doctorDao()
 
-
     fun getDoctorsFromServer(): MutableLiveData<List<Doctor>> {
         return DoctorRepository.getDoctorsFromServer()
     }

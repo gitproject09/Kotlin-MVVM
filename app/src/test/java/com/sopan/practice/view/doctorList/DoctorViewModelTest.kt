@@ -53,6 +53,5 @@ class DoctorViewModelTest : TestCase() {
             getData.removeObserver(observer)
         }.start()
 
-
     }
 }
