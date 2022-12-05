@@ -10,7 +10,6 @@ import androidx.navigation.fragment.navArgs
 import com.sopan.practice.R
 import com.sopan.practice.databinding.FragmentDoctorDetailsBinding
 
-
 class DoctorDetailsFragment : Fragment() {
 
     private val selectedDoctor: DoctorDetailsFragmentArgs by navArgs()
@@ -30,4 +29,5 @@ class DoctorDetailsFragment : Fragment() {
         bindingUtil.doctor = selectedDoctor.selectedDoctor
         return bindingUtil.root
     }
+
 }

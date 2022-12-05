@@ -13,7 +13,7 @@
             android:id="@+id/tv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Md Sabbir Ahmed Khan"
+            android:text="Sopan Ahmed"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
         <com.google.android.material.textview.MaterialTextView
