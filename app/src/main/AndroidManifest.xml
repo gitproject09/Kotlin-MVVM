@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinRxRetroMvvmRoom">
 
-        <activity android:name="com.sopan.practice.view.base.MainActivity"
+        <activity android:name=".view.base.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

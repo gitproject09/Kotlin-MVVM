@@ -20,9 +20,7 @@ abstract class TheDataBase : RoomDatabase() {
         @Synchronized
         fun getInstance(context: Context): TheDataBase {
             if (instance == null) {
-
-                instance =
-                    Room.databaseBuilder(context, TheDataBase::class.java, "doctor_db").build()
+                instance = Room.databaseBuilder(context, TheDataBase::class.java, "doctor_db").build()
             }
 
             return instance!!
